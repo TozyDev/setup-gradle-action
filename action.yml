@@ -94,8 +94,8 @@ runs:
     - name: Setup JDK
       uses: actions/setup-java@v3.11.0
       with:
-        java-version: ${{ inputs.java-version }}
-        distribution: ${{ inputs.java-distribution }}
+        java-version: ${{ inputs.jdk-version }}
+        distribution: ${{ inputs.jdk-distribution }}
         java-package: jdk
         check-latest: ${{ inputs.check-latest-jdk }}
 
