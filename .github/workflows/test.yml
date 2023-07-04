@@ -1,0 +1,25 @@
+name: Test
+on:
+  push:
+    branches: [main]
+
+  pull_request:
+    branches: [main]
+
+jobs:
+  simple-test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Gradle
+        uses: ./
+
+      - name: Build sample project
+        working-directory: .github/workflow-sample/kotlin-dsl
+        run: ./gradlew build
