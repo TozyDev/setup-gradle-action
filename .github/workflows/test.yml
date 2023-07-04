@@ -21,5 +21,5 @@ jobs:
         uses: ./
 
       - name: Build sample project
-        working-directory: .github/workflow-sample/kotlin-dsl
+        working-directory: ./.github/workflow-sample/kotlin-dsl
         run: ./gradlew build
