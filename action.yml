@@ -114,6 +114,10 @@ runs:
         gradle-home-cache-strict-match: ${{ inputs.gradle-home-cache-strict-match }}
         gradle-home-cache-cleanup: ${{ inputs.gradle-home-cache-cleanup }}
 
+    - name: Grant execute permission for gradlew
+      shell: bash
+      run: chmod +x gradlew
+
     - name: Gradle Wrapper Validation
       if: ${{ inputs.gradle-wrapper-validation == 'true' }}
       uses: gradle/wrapper-validation-action@v1.0.6
