@@ -101,7 +101,7 @@ runs:
 
     - name: Setup Gradle
       id: gradle
-      uses: gradle/gradle-build-action@v2.6.0
+      uses: gradle/gradle-build-action@v2.6.1
       with:
         gradle-version: ${{ inputs.gradle-version }}
         gradle-executable: ${{ inputs.gradle-executable }}
