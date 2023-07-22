@@ -11,5 +11,27 @@
   ],
   "labels": [
     "dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": [
+        ".github/workflow-samples/**"
+      ],
+      "groupName": "Sample workflow dependencies"
+    },
+    {
+      "matchFileNames": [
+        ".github/workflows/**"
+      ],
+      "semanticCommitType": "ci",
+      "groupName": "Github Actions workflow"
+    },
+    {
+      "matchFileNames": [
+        "action.yml"
+      ],
+      "semanticCommitType": "feat",
+      "groupName": "Github Actions dependencies"
+    }
   ]
 }
