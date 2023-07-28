@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/TozyF/setup-gradle-action/compare/v1.1.0...v1.2.0) (2023-07-28)
+
+
+### Features
+
+* **deps:** update github actions dependencies ([#16](https://github.com/TozyF/setup-gradle-action/issues/16)) ([c045a01](https://github.com/TozyF/setup-gradle-action/commit/c045a01c911ae5982db05e4854aa2afe8425337e))
+
 ## [1.1.0](https://github.com/TozyF/setup-gradle-action/compare/v1.0.0...v1.1.0) (2023-07-22)
 
 
