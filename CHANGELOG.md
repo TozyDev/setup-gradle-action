@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/TozyF/setup-gradle-action/compare/v1.3.0...v1.4.0) (2023-09-02)
+
+
+### Features
+
+* **deps:** update gradle/gradle-build-action action to v2.8.0 ([#22](https://github.com/TozyF/setup-gradle-action/issues/22)) ([127e326](https://github.com/TozyF/setup-gradle-action/commit/127e326d8b8aabb6e317ca3288ae3e2bfc6398ab))
+
 ## [1.3.0](https://github.com/TozyF/setup-gradle-action/compare/v1.2.0...v1.3.0) (2023-08-19)
 
 
